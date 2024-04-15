@@ -6,6 +6,6 @@ const container = document.getElementById("root");
 const root = createRoot(container); // createRoot(container!) if you use TypeScript
 root.render(
   <div>
-    <Board knightPosition={[0, 0]} />
+    <Board knightPosition={[3, 4]} />
   </div>
 );
