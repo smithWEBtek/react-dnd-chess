@@ -1,5 +1,13 @@
-import React from 'react'
+import React from "react";
 
 export default function Knight() {
-  return <span>♘</span>
+  return (
+    <div
+      style={{
+        fontSize: 'xxx-large'
+      }}
+    >
+      ♘
+    </div>
+  );
 }
